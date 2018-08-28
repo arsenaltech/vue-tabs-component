@@ -17,11 +17,13 @@
             prefix: { default: '' },
             suffix: { default: '' },
             isDisabled:{ default: false },
+            isError:{ default: false },
         },
 
         data: () => ({
             isActive: false,
             isVisible: true,
+            isError: false
         }),
 
         computed: {
