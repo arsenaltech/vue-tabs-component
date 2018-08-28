@@ -1,5 +1,5 @@
 <template>
-    <section class="test" v-show="isActive"
+    <section v-show="isActive"
              :aria-hidden="! isActive"
              class="tabs-component-panel"
              :id="hash"
