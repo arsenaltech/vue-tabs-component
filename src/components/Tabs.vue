@@ -4,7 +4,7 @@
             <li
                 v-for="(tab, i) in tabs"
                 :key="i"
-                :class="{ 'is-active': tab.isActive, 'is-disabled': tab.isDisabled }"
+                :class="{ 'is-active': tab.isActive, 'is-disabled': tab.isDisabled, 'is-error': tab.isError }"
                 class="tabs-component-tab"
                 role="presentation"
                 v-show="tab.isVisible"
